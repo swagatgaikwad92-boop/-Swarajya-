@@ -1,0 +1,264 @@
+{
+ "id": "afzal_khan_1659",
+ "title": "The Expedition of 1659",
+ "short_name": "1659 campaign",
+ "period": "1659-1660 (12 turns)",
+ "start_year": 1659,
+ "start_quarter": 3,
+ "max_turns": 12,
+ "player_faction": "swarajya",
+ "era": {
+  "title": "Era 1: The Rise of Shivaji",
+  "summary": "A larger Bijapur army marches on Shivaji's growing realm.",
+  "id": "era1"
+ },
+ "briefing": "A major Adil Shahi army has marched toward Shivaji's hill country. Hold the great forts, blunt the expedition, and strike into the south. Quarter 3 is the monsoon (a gameplay abstraction): armies outside fort networks lose supply faster and sieges are slower. Diplomacy is available, but the Adil Shahi court only talks when it is losing or when your forces are not weak.",
+ "win_text": "Hold Raigad, Pratapgad, Purandar and Panhala at the same time.",
+ "lose_text": "Lose Raigad, let stability fall to zero, run out of armies and means, or run out of time (12 turns).",
+ "historical_background": {
+  "text": "In 1659 Bijapur sent Afzal Khan against Shivaji after his gains of the mid-1650s. Traditional accounts describe the Bijapur army being defeated near Pratapgad in November 1659 and Maratha forces then taking Panhala, followed by Siddi Jauhar's siege of Panhala in 1660. Chronology and details vary; the game compresses 1659-60 into one playable campaign.",
+  "confidence": "MEDIUM",
+  "sources": [
+   "Sarkar, Jadunath. Shivaji and His Times",
+   "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)",
+   "Mehendale, Gajanan B. Shivaji: His Life and Times"
+  ]
+ },
+ "victory": {
+  "hold_forts": [
+   "raigad",
+   "pratapgad",
+   "purandar",
+   "panhala"
+  ],
+  "mode": "capture"
+ },
+ "defeat": {
+  "core_territories": [
+   "raigad"
+  ],
+  "stability_zero": true
+ },
+ "historical_outcome": {
+  "text": "Traditional accounts say the Bijapur expedition was defeated in November 1659 and that Panhala passed to Shivaji in late 1659, followed by the 1660 siege and Shivaji's later escape from Panhala. Details are disputed. Holding four forts at once is a game objective, not a documented historical state.",
+  "confidence": "MEDIUM",
+  "sources": [
+   "Sarkar, Jadunath. Shivaji and His Times"
+  ]
+ },
+ "events": [
+  {
+   "id": "s2_army",
+   "turn": 1,
+   "title": "A great army marches",
+   "text": "Scouts report a large Bijapur army moving toward the hills. Garrisons at Pratapgad can use the extra days to finish repairs.",
+   "historical": {
+    "text": "Bijapur's 1659 expedition under Afzal Khan is well attested. Its size, route and timing are not agreed.",
+    "confidence": "MEDIUM",
+    "sources": [
+     "Sarkar, Jadunath. Shivaji and His Times"
+    ]
+   },
+   "choices": [
+    {
+     "label": "Prepare the defence",
+     "effects": [
+      {
+       "type": "wall",
+       "territory": "javli",
+       "amount": 20
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_parley",
+   "turn": 2,
+   "title": "An offer of talks",
+   "text": "Envoys carry word of a possible meeting near Pratapgad. You can seek a truce through envoys, or refuse and strengthen the fort.",
+   "historical": {
+    "text": "Accounts of a meeting between Afzal Khan and Shivaji near Pratapgad in November 1659 differ sharply on what happened, and are shaped by later tradition. The game does not depict the meeting; it abstracts it into this choice.",
+    "confidence": "UNCERTAIN",
+    "sources": [
+     "Sarkar, Jadunath. Shivaji and His Times"
+    ]
+   },
+   "choices": [
+    {
+     "label": "Seek a truce through envoys",
+     "min_gold": 20,
+     "effects": [
+      {
+       "type": "gold",
+       "faction": "player",
+       "amount": -20
+      },
+      {
+       "type": "truce",
+       "with": "adilshahi",
+       "turns": 2
+      }
+     ]
+    },
+    {
+     "label": "Refuse and fortify",
+     "effects": [
+      {
+       "type": "wall",
+       "territory": "javli",
+       "amount": 20
+      },
+      {
+       "type": "stability",
+       "faction": "player",
+       "amount": -2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s2_jauhar",
+   "turn": 4,
+   "title": "A second army from Bijapur",
+   "text": "Fresh Adil Shahi forces under Siddi Jauhar are reported on the road.",
+   "historical": {
+    "text": "Siddi Jauhar is associated with the 1660 siege of Panhala. His arrival is moved earlier here for gameplay.",
+    "confidence": "MEDIUM",
+    "sources": [
+     "Sarkar, Jadunath. Shivaji and His Times"
+    ]
+   },
+   "choices": [
+    {
+     "label": "Prepare to meet them",
+     "effects": [
+      {
+       "type": "army",
+       "owner": "adilshahi",
+       "territory": "bijapur",
+       "commander": "siddi_jauhar",
+       "units": {
+        "infantry": 6,
+        "cavalry": 4,
+        "artillery": 2
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "start": {
+  "factions": {
+   "swarajya": {
+    "gold": 90,
+    "manpower": 12,
+    "stability": 55
+   },
+   "adilshahi": {
+    "gold": 120,
+    "manpower": 14,
+    "stability": 60
+   }
+  },
+  "territories": {
+   "konkan_north": {
+    "owner": "swarajya"
+   },
+   "pune": {
+    "owner": "swarajya"
+   },
+   "purandar": {
+    "owner": "swarajya",
+    "garrison": {
+     "infantry": 3
+    },
+    "wall": 100
+   },
+   "raigad": {
+    "owner": "swarajya",
+    "garrison": {
+     "infantry": 3
+    },
+    "wall": 100
+   },
+   "javli": {
+    "owner": "swarajya",
+    "garrison": {
+     "infantry": 2
+    },
+    "wall": 80
+   },
+   "wai": {
+    "owner": "adilshahi"
+   },
+   "satara_plateau": {
+    "owner": "adilshahi",
+    "garrison": {
+     "infantry": 2
+    }
+   },
+   "panhala": {
+    "owner": "adilshahi",
+    "garrison": {
+     "infantry": 4
+    },
+    "wall": 100
+   },
+   "konkan_south": {
+    "owner": "adilshahi",
+    "garrison": {
+     "infantry": 2
+    }
+   },
+   "bijapur": {
+    "owner": "adilshahi",
+    "garrison": {
+     "infantry": 3
+    }
+   }
+  },
+  "armies": [
+   {
+    "owner": "swarajya",
+    "commander": "shivaji",
+    "territory": "javli",
+    "units": {
+     "infantry": 7,
+     "cavalry": 2
+    }
+   },
+   {
+    "owner": "swarajya",
+    "commander": "netaji_palkar",
+    "territory": "pune",
+    "units": {
+     "infantry": 2,
+     "cavalry": 4
+    }
+   },
+   {
+    "owner": "adilshahi",
+    "commander": "afzal_khan",
+    "territory": "wai",
+    "units": {
+     "infantry": 8,
+     "cavalry": 6,
+     "artillery": 2
+    }
+   },
+   {
+    "owner": "adilshahi",
+    "commander": "",
+    "territory": "bijapur",
+    "units": {
+     "infantry": 5,
+     "cavalry": 3
+    },
+    "role": "guard"
+   }
+  ]
+ }
+}

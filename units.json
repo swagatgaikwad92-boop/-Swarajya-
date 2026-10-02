@@ -1,0 +1,66 @@
+{
+ "infantry": {
+  "name": "Foot Infantry",
+  "short": "Inf",
+  "attack": 10,
+  "defense": 10,
+  "move": 3,
+  "cost": 10,
+  "manpower": 1,
+  "historical": {
+   "text": "Hill-country foot soldiers, including levies from the Maval valleys, are widely described in secondary literature as central to early Maratha warfare. One game unit stands for a company-sized body of men; the scale is a gameplay abstraction.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "cavalry": {
+  "name": "Light Cavalry",
+  "short": "Cav",
+  "attack": 14,
+  "defense": 6,
+  "move": 5,
+  "cost": 22,
+  "manpower": 1,
+  "historical": {
+   "text": "Mounted troops were important across the Deccan sultanates and in later Maratha armies. Their weakness in rugged hill country is a gameplay simplification of a real tendency.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "artillery": {
+  "name": "Siege Guns",
+  "short": "Art",
+  "attack": 12,
+  "defense": 4,
+  "move": 2,
+  "cost": 38,
+  "manpower": 2,
+  "historical": {
+   "text": "Gunpowder artillery was used in sieges in this region and period. Quantities and quality for each side are not modelled from records; values here are gameplay abstractions.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Eaton, Richard M. A Social History of the Deccan, 1300-1761 (Cambridge, 2005)"
+   ]
+  }
+ },
+ "drilled_infantry": {
+  "name": "Drilled Infantry",
+  "short": "Drl",
+  "attack": 12,
+  "defense": 12,
+  "move": 3,
+  "cost": 16,
+  "manpower": 1,
+  "historical": {
+   "text": "Regular, European-style drilled infantry (for example sepoy battalions) became important in the 18th and early 19th centuries. Several Indian states, including Maratha ones, also raised drilled battalions. Stats here are gameplay abstractions.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ }
+}

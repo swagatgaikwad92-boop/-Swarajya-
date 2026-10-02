@@ -1,0 +1,246 @@
+[
+ {
+  "year": 1627,
+  "title": "Mohammad Adil Shah begins his reign",
+  "text": "Start of the 1627-1656 reign of the Adil Shahi ruler at Bijapur.",
+  "confidence": "HIGH",
+  "scenarios": [
+   "early_consolidation_1646",
+   "afzal_khan_1659"
+  ]
+ },
+ {
+  "year": 1630,
+  "title": "Traditional birth year of Shivaji",
+  "text": "Many modern accounts give 1630; others give 1627.",
+  "confidence": "UNCERTAIN",
+  "scenarios": []
+ },
+ {
+  "year": 1646,
+  "title": "Torna traditionally acquired",
+  "text": "Often dated c. 1646-47. Date and manner (force or arrangement) vary.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "early_consolidation_1646"
+  ]
+ },
+ {
+  "year": 1647,
+  "title": "Death of Dadoji Konddev",
+  "text": "Usually stated as c. 1647. He is associated with the early administration of the Pune jagir.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "early_consolidation_1646"
+  ]
+ },
+ {
+  "year": 1648,
+  "title": "Purandar and the Shahaji crisis",
+  "text": "Traditional accounts place Purandar's acquisition and a crisis between Bijapur and Shahaji around 1648-49. Sequence and causes are disputed.",
+  "confidence": "UNCERTAIN",
+  "scenarios": [
+   "early_consolidation_1646"
+  ]
+ },
+ {
+  "year": 1649,
+  "title": "Settlement over Shahaji",
+  "text": "A settlement is said to have ended the crisis; one tradition links it to Kondana's return. Disputed.",
+  "confidence": "UNCERTAIN",
+  "scenarios": [
+   "early_consolidation_1646"
+  ]
+ },
+ {
+  "year": 1656,
+  "title": "Javli acquired; Raigad becomes the seat",
+  "text": "Traditionally dated 1656. Pratapgad is built nearby in the following years.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "afzal_khan_1659"
+  ]
+ },
+ {
+  "year": 1656,
+  "title": "Death of Mohammad Adil Shah",
+  "text": "End of the 1627-1656 reign at Bijapur.",
+  "confidence": "HIGH",
+  "scenarios": []
+ },
+ {
+  "year": 1657,
+  "title": "Northern Konkan around Kalyan taken",
+  "text": "Traditionally dated 1657.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "afzal_khan_1659"
+  ]
+ },
+ {
+  "year": 1659,
+  "title": "Afzal Khan's expedition; events at Pratapgad",
+  "text": "The expedition is well attested. The November 1659 events are heavily shaped by later tradition and differ between accounts.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "afzal_khan_1659"
+  ]
+ },
+ {
+  "year": 1659,
+  "title": "Panhala taken (traditional)",
+  "text": "Traditional accounts say Panhala passed to Shivaji in late 1659.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "afzal_khan_1659"
+  ]
+ },
+ {
+  "year": 1660,
+  "title": "Siddi Jauhar's siege of Panhala",
+  "text": "Followed by Shivaji's escape from the fort. Details and dates vary.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "afzal_khan_1659"
+  ]
+ },
+ {
+  "year": 1660,
+  "title": "Mughal siege of Chakan",
+  "text": "Chakan was besieged by Mughal forces and defended by Firangoji Narsala.",
+  "confidence": "MEDIUM",
+  "scenarios": []
+ },
+ {
+  "year": 1674,
+  "title": "Coronation at Raigad",
+  "text": "Shivaji's formal coronation, outside the scope of this version.",
+  "confidence": "HIGH",
+  "scenarios": []
+ },
+ {
+  "year": 1707,
+  "title": "Shahu begins his reign",
+  "text": "Chhatrapati Shahu's reign is dated 1707-1749.",
+  "confidence": "HIGH",
+  "scenarios": [
+   "peshwa_expansion_1727"
+  ]
+ },
+ {
+  "year": 1720,
+  "title": "Baji Rao I becomes Peshwa",
+  "text": "He holds the office until his death in 1740.",
+  "confidence": "HIGH",
+  "scenarios": [
+   "peshwa_expansion_1727"
+  ]
+ },
+ {
+  "year": 1724,
+  "title": "Nizam-ul-Mulk's autonomous Deccan rule",
+  "text": "Usually dated from his victory at Shakar Kheda in 1724.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "peshwa_expansion_1727"
+  ]
+ },
+ {
+  "year": 1728,
+  "title": "Battle of Palkhed",
+  "text": "February 1728: Baji Rao I forces terms on the Nizam; Treaty of Mungi-Shevgaon follows.",
+  "confidence": "HIGH",
+  "scenarios": [
+   "peshwa_expansion_1727"
+  ]
+ },
+ {
+  "year": 1737,
+  "title": "Baji Rao I near Delhi",
+  "text": "Traditional date for his raid to the outskirts of Delhi.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "peshwa_expansion_1727"
+  ]
+ },
+ {
+  "year": 1738,
+  "title": "Bhopal and the settlement of Malwa",
+  "text": "January 1738 settlement (Doraha) after the Bhopal campaign; Malwa passes to the Marathas.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "peshwa_expansion_1727"
+  ]
+ },
+ {
+  "year": 1740,
+  "title": "Death of Baji Rao I",
+  "text": "April 1740.",
+  "confidence": "HIGH",
+  "scenarios": []
+ },
+ {
+  "year": 1749,
+  "title": "Death of Shahu",
+  "text": "End of the 1707-1749 reign.",
+  "confidence": "HIGH",
+  "scenarios": []
+ },
+ {
+  "year": 1761,
+  "title": "Third Battle of Panipat",
+  "text": "14 January 1761: a major Maratha defeat by an Afghan-led coalition. Not a playable campaign in this version.",
+  "confidence": "HIGH",
+  "scenarios": []
+ },
+ {
+  "year": 1775,
+  "title": "First Anglo-Maratha War begins",
+  "text": "Ends with the Treaty of Salbai in 1782.",
+  "confidence": "HIGH",
+  "scenarios": []
+ },
+ {
+  "year": 1803,
+  "title": "Second Anglo-Maratha War",
+  "text": "Includes Assaye (23 September 1803). Not a playable campaign in this version.",
+  "confidence": "HIGH",
+  "scenarios": []
+ },
+ {
+  "year": 1817,
+  "title": "Third Anglo-Maratha War begins",
+  "text": "Clash at Khadki on 5 November; Pune occupied; fighting at Sitabuldi (Nagpur) in November; Mahidpur on 21 December.",
+  "confidence": "HIGH",
+  "scenarios": [
+   "last_peshwa_1817"
+  ]
+ },
+ {
+  "year": 1818,
+  "title": "Koregaon Bhima",
+  "text": "1 January 1818. Interpreted in different ways.",
+  "confidence": "HIGH",
+  "scenarios": [
+   "last_peshwa_1817"
+  ]
+ },
+ {
+  "year": 1818,
+  "title": "Ashti and the fall of the forts",
+  "text": "Bapu Gokhale is killed at Ashti in February; Company forces take the hill forts through 1818.",
+  "confidence": "MEDIUM",
+  "scenarios": [
+   "last_peshwa_1817"
+  ]
+ },
+ {
+  "year": 1818,
+  "title": "Baji Rao II surrenders",
+  "text": "June 1818. The Peshwa's office is ended.",
+  "confidence": "HIGH",
+  "scenarios": [
+   "last_peshwa_1817"
+  ]
+ }
+]

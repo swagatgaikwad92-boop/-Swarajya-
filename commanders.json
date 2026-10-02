@@ -1,0 +1,287 @@
+{
+ "shivaji": {
+  "name": "Shivaji Bhosale",
+  "faction": "swarajya",
+  "gameplay": {
+   "attack_mod": 0.15,
+   "defense_mod": 0.05,
+   "speed_bonus": 1,
+   "trait": "Mobile warfare"
+  },
+  "historical": {
+   "text": "Founder of the Maratha polity. His birth year is given as 1630 in many modern accounts and 1627 in others, so his exact age in 1646-1649 is uncertain. His reputation for mobility and use of hill forts is well established in the literature; the numeric bonuses here are gameplay values only.",
+   "confidence": "HIGH",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)",
+    "Mehendale, Gajanan B. Shivaji: His Life and Times"
+   ]
+  }
+ },
+ "firangoji": {
+  "name": "Firangoji Narsala",
+  "faction": "swarajya",
+  "gameplay": {
+   "attack_mod": 0.0,
+   "defense_mod": 0.15,
+   "speed_bonus": 0,
+   "trait": "Fort defender"
+  },
+  "historical": {
+   "text": "Best documented as the defender of Chakan during the 1660 Mughal siege, which is outside this scenario's dates. His role and loyalties in 1646-1649 are uncertain, so placing him with the player here is a gameplay assumption, not a statement of history.",
+   "confidence": "UNCERTAIN",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  }
+ },
+ "bijapur_sardar": {
+  "name": "Bijapur Sardar (generic)",
+  "faction": "adilshahi",
+  "gameplay": {
+   "attack_mod": 0.05,
+   "defense_mod": 0.05,
+   "speed_bonus": 0,
+   "trait": "Veteran commander"
+  },
+  "historical": {
+   "text": "FICTIONAL PLACEHOLDER. This is not a historical person. It stands in for the Adil Shahi officers whose specific identities and dates in this campaign are not modelled here.",
+   "confidence": "UNCERTAIN",
+   "sources": []
+  }
+ },
+ "afzal_khan": {
+  "name": "Afzal Khan",
+  "faction": "adilshahi",
+  "gameplay": {
+   "attack_mod": 0.1,
+   "defense_mod": 0.05,
+   "speed_bonus": 0,
+   "trait": "Senior Bijapur general"
+  },
+  "historical": {
+   "text": "Bijapur noble and general who led the 1659 expedition against Shivaji and is said to have died at Pratapgad in November 1659. His role in the expedition is well attested; the details of the meeting and its outcome are heavily shaped by later tradition and differ between accounts.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times",
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "netaji_palkar": {
+  "name": "Netaji Palkar",
+  "faction": "swarajya",
+  "gameplay": {
+   "attack_mod": 0.1,
+   "defense_mod": 0.0,
+   "speed_bonus": 1,
+   "trait": "Cavalry leader"
+  },
+  "historical": {
+   "text": "Associated in the literature with command of Shivaji's cavalry from the mid-1650s. His specific role in the events of 1659 is uncertain, so his assignment here is a gameplay assumption.",
+   "confidence": "UNCERTAIN",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  }
+ },
+ "siddi_jauhar": {
+  "name": "Siddi Jauhar",
+  "faction": "adilshahi",
+  "gameplay": {
+   "attack_mod": 0.1,
+   "defense_mod": 0.1,
+   "speed_bonus": 0,
+   "trait": "Siege commander"
+  },
+  "historical": {
+   "text": "Adil Shahi commander associated with the 1660 siege of Panhala. His appearance in a campaign that starts in 1659 is a gameplay compression of events across 1659-60.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  }
+ },
+ "baji_rao_i": {
+  "name": "Baji Rao I",
+  "faction": "maratha_state",
+  "gameplay": {
+   "attack_mod": 0.15,
+   "defense_mod": 0.0,
+   "speed_bonus": 1,
+   "trait": "Mobile cavalry warfare"
+  },
+  "historical": {
+   "text": "Peshwa from 1720 until his death in 1740, remembered for fast-moving campaigns. The victory at Palkhed (1728) is often cited as an example. Numeric bonuses are gameplay values.",
+   "confidence": "HIGH",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "chimaji_appa": {
+  "name": "Chimaji Appa",
+  "faction": "maratha_state",
+  "gameplay": {
+   "attack_mod": 0.05,
+   "defense_mod": 0.1,
+   "speed_bonus": 0,
+   "trait": "Steady commander"
+  },
+  "historical": {
+   "text": "Younger brother of Baji Rao I, associated with campaigns including the Konkan and Vasai operations. His exact role in this scenario is a gameplay assignment.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "holkar_early": {
+  "name": "Malhar Rao Holkar",
+  "faction": "maratha_state",
+  "gameplay": {
+   "attack_mod": 0.1,
+   "defense_mod": 0.0,
+   "speed_bonus": 1,
+   "trait": "Cavalry leader"
+  },
+  "historical": {
+   "text": "Maratha commander who rose in Baji Rao I's service and is associated with Malwa. His placement here is a gameplay assumption.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "nizam_ul_mulk": {
+  "name": "Nizam-ul-Mulk Asaf Jah I",
+  "faction": "nizam",
+  "gameplay": {
+   "attack_mod": 0.05,
+   "defense_mod": 0.1,
+   "speed_bonus": 0,
+   "trait": "Veteran statesman-general"
+  },
+  "historical": {
+   "text": "Founder of the Asaf Jahi Deccan state. He was a leading opponent of Baji Rao I at Palkhed (1728) and Bhopal (1737-38).",
+   "confidence": "HIGH",
+   "sources": [
+    "Eaton, Richard M. A Social History of the Deccan, 1300-1761 (Cambridge, 2005)"
+   ]
+  }
+ },
+ "mughal_governor": {
+  "name": "Mughal Governor (generic)",
+  "faction": "mughal",
+  "gameplay": {
+   "attack_mod": 0.0,
+   "defense_mod": 0.05,
+   "speed_bonus": 0,
+   "trait": "Provincial commander"
+  },
+  "historical": {
+   "text": "FICTIONAL PLACEHOLDER, not a historical person. It stands in for Mughal provincial officers whose identities are not modelled.",
+   "confidence": "UNCERTAIN",
+   "sources": []
+  }
+ },
+ "baji_rao_ii": {
+  "name": "Baji Rao II",
+  "faction": "maratha_confederacy",
+  "gameplay": {
+   "attack_mod": 0.0,
+   "defense_mod": 0.0,
+   "speed_bonus": 0,
+   "trait": "Peshwa"
+  },
+  "historical": {
+   "text": "The last Peshwa (ruled 1796-1818). He surrendered in June 1818 and the office was ended. His gameplay modifiers are neutral; no judgement of his generalship is intended.",
+   "confidence": "HIGH",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "bapu_gokhale": {
+  "name": "Bapu Gokhale",
+  "faction": "maratha_confederacy",
+  "gameplay": {
+   "attack_mod": 0.1,
+   "defense_mod": 0.05,
+   "speed_bonus": 1,
+   "trait": "Cavalry commander"
+  },
+  "historical": {
+   "text": "Senior commander of the Peshwa's army in 1817-18, killed at Ashti in February 1818.",
+   "confidence": "HIGH",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "appa_sahib": {
+  "name": "Appa Sahib Bhonsle",
+  "faction": "maratha_confederacy",
+  "gameplay": {
+   "attack_mod": 0.05,
+   "defense_mod": 0.05,
+   "speed_bonus": 0,
+   "trait": "Regional ruler"
+  },
+  "historical": {
+   "text": "Bhonsle ruler of Nagpur in 1817, associated with the fighting at Sitabuldi in November 1817.",
+   "confidence": "HIGH",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "holkar_ii": {
+  "name": "Malhar Rao Holkar II",
+  "faction": "maratha_confederacy",
+  "gameplay": {
+   "attack_mod": 0.05,
+   "defense_mod": 0.0,
+   "speed_bonus": 0,
+   "trait": "Young ruler"
+  },
+  "historical": {
+   "text": "Holkar ruler whose army was defeated at Mahidpur in December 1817.",
+   "confidence": "HIGH",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "john_malcolm": {
+  "name": "John Malcolm",
+  "faction": "eic",
+  "gameplay": {
+   "attack_mod": 0.05,
+   "defense_mod": 0.1,
+   "speed_bonus": 0,
+   "trait": "Diplomat-general"
+  },
+  "historical": {
+   "text": "East India Company officer prominent in the 1817-18 campaign in Central India and in the Peshwa's surrender.",
+   "confidence": "HIGH",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "eic_commander": {
+  "name": "Company Field Commander (generic)",
+  "faction": "eic",
+  "gameplay": {
+   "attack_mod": 0.1,
+   "defense_mod": 0.05,
+   "speed_bonus": 0,
+   "trait": "Disciplined force"
+  },
+  "historical": {
+   "text": "FICTIONAL PLACEHOLDER, not a historical person. It stands in for the Company officers who led field columns in 1817-18.",
+   "confidence": "UNCERTAIN",
+   "sources": []
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "raigad": {
+  "name": "Raigad",
+  "territory": "raigad",
+  "strategic": 9,
+  "defense": 0.7,
+  "wall_max": 100,
+  "garrison_capacity": 8,
+  "historical": {
+   "text": "Major hill fort in the Sahyadri range, developed by Shivaji and described as his principal seat from the mid-1650s. Dates of construction phases vary by source.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Mehendale, Gajanan B. Shivaji: His Life and Times"
+   ]
+  }
+ },
+ "pratapgad": {
+  "name": "Pratapgad",
+  "territory": "javli",
+  "strategic": 8,
+  "defense": 0.6,
+  "wall_max": 100,
+  "wall_start": 80,
+  "garrison_capacity": 8,
+  "historical": {
+   "text": "Fort near Mahabaleshwar built in the mid-to-late 1650s. Tradition places the November 1659 events with Afzal Khan nearby.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  },
+  "gameplay_note": "Walls start at 80: still being completed (gameplay representation)."
+ },
+ "purandar": {
+  "name": "Purandar",
+  "territory": "purandar",
+  "strategic": 8,
+  "defense": 0.6,
+  "wall_max": 100,
+  "garrison_capacity": 8,
+  "historical": {
+   "text": "Major hill fort south-east of Pune, traditionally in Maratha hands from about 1648. Later history falls outside this scenario.",
+   "confidence": "UNCERTAIN",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  }
+ },
+ "panhala": {
+  "name": "Panhala",
+  "territory": "panhala",
+  "strategic": 8,
+  "defense": 0.65,
+  "wall_max": 100,
+  "garrison_capacity": 8,
+  "historical": {
+   "text": "Large hill fort near Kolhapur. Traditional accounts say Shivaji took it in late 1659; Siddi Jauhar's siege of 1660 followed. Dates and details are disputed.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  }
+ }
+}

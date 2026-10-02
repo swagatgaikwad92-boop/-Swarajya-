@@ -1,0 +1,80 @@
+{
+ "mountains": {
+  "name": "Mountains",
+  "move_cost": 3,
+  "defense": 1.25,
+  "supply_penalty": 10,
+  "color": "#8a7a62",
+  "unit_mod": {
+   "infantry": 1.1,
+   "cavalry": 0.5,
+   "artillery": 0.6,
+   "drilled_infantry": 1.05
+  }
+ },
+ "hills": {
+  "name": "Hills",
+  "move_cost": 2,
+  "defense": 1.15,
+  "supply_penalty": 6,
+  "color": "#a69869",
+  "unit_mod": {
+   "infantry": 1.1,
+   "cavalry": 0.8,
+   "artillery": 0.8,
+   "drilled_infantry": 1.05
+  }
+ },
+ "forest": {
+  "name": "Forested valleys",
+  "move_cost": 2,
+  "defense": 1.15,
+  "supply_penalty": 5,
+  "color": "#6f8a5a",
+  "unit_mod": {
+   "infantry": 1.15,
+   "cavalry": 0.7,
+   "artillery": 0.6,
+   "drilled_infantry": 1.1
+  }
+ },
+ "plains": {
+  "name": "Plains",
+  "move_cost": 1,
+  "defense": 1.0,
+  "supply_penalty": 0,
+  "color": "#c2b070",
+  "unit_mod": {
+   "infantry": 1.0,
+   "cavalry": 1.15,
+   "artillery": 1.0,
+   "drilled_infantry": 1.0
+  }
+ },
+ "dry": {
+  "name": "Dry plateau",
+  "move_cost": 1,
+  "defense": 0.95,
+  "supply_penalty": 8,
+  "color": "#c9a46a",
+  "unit_mod": {
+   "infantry": 0.95,
+   "cavalry": 1.1,
+   "artillery": 1.0,
+   "drilled_infantry": 0.95
+  }
+ },
+ "river": {
+  "name": "River valley",
+  "move_cost": 2,
+  "defense": 1.05,
+  "supply_penalty": 2,
+  "color": "#8fae9a",
+  "unit_mod": {
+   "infantry": 1.0,
+   "cavalry": 0.9,
+   "artillery": 0.9,
+   "drilled_infantry": 1.0
+  }
+ }
+}

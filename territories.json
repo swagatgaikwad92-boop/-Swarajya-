@@ -1,0 +1,229 @@
+{
+ "konkan_north": {
+  "name": "Northern Konkan",
+  "terrain": "river",
+  "revenue": 4,
+  "manpower": 2,
+  "fort": "",
+  "pos": [
+   200,
+   220
+  ],
+  "neighbours": [
+   "raigad",
+   "pune"
+  ],
+  "historical": {
+   "text": "Coastal strip around Kalyan, traditionally taken from Adil Shahi control in 1657. Its borders here are simplified.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  }
+ },
+ "pune": {
+  "name": "Pune",
+  "terrain": "plains",
+  "revenue": 5,
+  "manpower": 2,
+  "fort": "",
+  "supply_source": true,
+  "pos": [
+   580,
+   220
+  ],
+  "neighbours": [
+   "konkan_north",
+   "raigad",
+   "purandar"
+  ],
+  "historical": {
+   "text": "Core region of Shivaji's early rule. By 1659 it is generally described as under his administration, though subject to outside pressure; its status here is simplified.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  }
+ },
+ "purandar": {
+  "name": "Purandar",
+  "terrain": "hills",
+  "revenue": 3,
+  "manpower": 1,
+  "fort": "purandar",
+  "pos": [
+   790,
+   420
+  ],
+  "neighbours": [
+   "pune",
+   "wai"
+  ],
+  "historical": {
+   "text": "Hill country around Purandar fort. Maratha possession since about 1648 is traditional; details of how it came about are disputed.",
+   "confidence": "UNCERTAIN",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  }
+ },
+ "raigad": {
+  "name": "Raigad",
+  "terrain": "mountains",
+  "revenue": 3,
+  "manpower": 1,
+  "fort": "raigad",
+  "supply_source": true,
+  "pos": [
+   340,
+   440
+  ],
+  "neighbours": [
+   "konkan_north",
+   "pune",
+   "javli",
+   "konkan_south"
+  ],
+  "historical": {
+   "text": "Mountain district around Raigad fort, described as Shivaji's principal seat from the mid-1650s. His later coronation there (1674) falls outside this scenario.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Mehendale, Gajanan B. Shivaji: His Life and Times"
+   ]
+  }
+ },
+ "javli": {
+  "name": "Javli",
+  "terrain": "forest",
+  "revenue": 2,
+  "manpower": 2,
+  "fort": "pratapgad",
+  "pos": [
+   420,
+   650
+  ],
+  "neighbours": [
+   "raigad",
+   "wai",
+   "konkan_south"
+  ],
+  "historical": {
+   "text": "Forested hill region around Mahabaleshwar, traditionally taken from the More family in 1656, with Pratapgad built nearby soon afterwards.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  }
+ },
+ "wai": {
+  "name": "Wai",
+  "terrain": "river",
+  "revenue": 4,
+  "manpower": 2,
+  "fort": "",
+  "pos": [
+   650,
+   660
+  ],
+  "neighbours": [
+   "javli",
+   "purandar",
+   "satara_plateau"
+  ],
+  "historical": {
+   "text": "District in the Krishna valley under Adil Shahi administration. Afzal Khan is traditionally linked with this area at the start of the 1659 expedition, though accounts of his base differ.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  }
+ },
+ "satara_plateau": {
+  "name": "Satara Uplands",
+  "terrain": "dry",
+  "revenue": 4,
+  "manpower": 2,
+  "fort": "",
+  "pos": [
+   650,
+   860
+  ],
+  "neighbours": [
+   "wai",
+   "panhala",
+   "bijapur"
+  ],
+  "historical": {
+   "text": "Abstract region standing for the upland routes between Wai and the south. Its exact boundaries are a gameplay simplification.",
+   "confidence": "UNCERTAIN",
+   "sources": []
+  }
+ },
+ "panhala": {
+  "name": "Panhala",
+  "terrain": "hills",
+  "revenue": 4,
+  "manpower": 2,
+  "fort": "panhala",
+  "pos": [
+   480,
+   1040
+  ],
+  "neighbours": [
+   "satara_plateau",
+   "konkan_south",
+   "bijapur"
+  ],
+  "historical": {
+   "text": "Hill country around Panhala fort near Kolhapur. Traditional accounts say Shivaji took it in late 1659 and that it was besieged in 1660.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  }
+ },
+ "konkan_south": {
+  "name": "Southern Konkan",
+  "terrain": "forest",
+  "revenue": 3,
+  "manpower": 1,
+  "fort": "",
+  "pos": [
+   200,
+   860
+  ],
+  "neighbours": [
+   "raigad",
+   "javli",
+   "panhala"
+  ],
+  "historical": {
+   "text": "Coastal strip south of the Raigad area, contested between Adil Shahi holdings and Maratha raids around 1659-60. Details are uncertain.",
+   "confidence": "UNCERTAIN",
+   "sources": []
+  }
+ },
+ "bijapur": {
+  "name": "Bijapur Heartland",
+  "terrain": "dry",
+  "revenue": 10,
+  "manpower": 4,
+  "fort": "",
+  "supply_source": true,
+  "pos": [
+   860,
+   1240
+  ],
+  "neighbours": [
+   "satara_plateau",
+   "panhala"
+  ],
+  "historical": {
+   "text": "Capital region of the Adil Shahi Sultanate. An abstract off-map heartland: distances are not to scale.",
+   "confidence": "HIGH",
+   "sources": [
+    "Eaton, Richard M. A Social History of the Deccan, 1300-1761 (Cambridge, 2005)"
+   ]
+  }
+ }
+}

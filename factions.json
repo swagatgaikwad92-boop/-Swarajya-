@@ -1,0 +1,130 @@
+{
+ "swarajya": {
+  "name": "Shivaji's Forces (early Swarajya)",
+  "short_name": "Swarajya",
+  "color": "#e0902a",
+  "recruitable": [
+   "infantry",
+   "cavalry"
+  ],
+  "historical": {
+   "text": "The player leads the polity built around Shivaji, which grew from a base in the Pune highlands in the 1640s into a significant regional power by the late 1650s. The Adil Shahi state was the dominant neighbour. The name Swarajya is used by the game as a title; how early and in what sense contemporaries used the concept is debated.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)",
+    "Sarkar, Jadunath. Shivaji and His Times"
+   ]
+  },
+  "gameplay_note": "No artillery recruitment in this slice: a gameplay constraint representing limited early resources, not a claim that no guns existed."
+ },
+ "adilshahi": {
+  "name": "Adil Shahi Sultanate (Bijapur)",
+  "short_name": "Adil Shahi",
+  "color": "#2f7d6b",
+  "recruitable": [
+   "infantry",
+   "cavalry",
+   "artillery"
+  ],
+  "historical": {
+   "text": "The Deccan sultanate ruled from Bijapur by the Adil Shahi dynasty. Mohammad Adil Shah reigned 1627-1656. The Adil Shahi state was the dominant regional power around Pune in the 1640s.",
+   "confidence": "HIGH",
+   "sources": [
+    "Eaton, Richard M. A Social History of the Deccan, 1300-1761 (Cambridge, 2005)"
+   ]
+  },
+  "gameplay_note": "Controlled by the computer. Its forces here are generic gameplay armies, not reconstructions of named field commands."
+ },
+ "maratha_state": {
+  "name": "Maratha State (Shahu and the Peshwa)",
+  "short_name": "Marathas",
+  "color": "#e0902a",
+  "recruitable": [
+   "infantry",
+   "cavalry",
+   "artillery"
+  ],
+  "historical": {
+   "text": "The Maratha state under Chhatrapati Shahu (reigned 1707-1749) at Satara, with the Peshwa as chief minister and leader of its armies. Baji Rao I was Peshwa from 1720 to 1740.",
+   "confidence": "HIGH",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  },
+  "gameplay_note": "Fast cavalry and mobile campaigning are favoured by the commanders' modifiers; numbers are abstractions."
+ },
+ "nizam": {
+  "name": "Nizam's Deccan State (Asaf Jahi)",
+  "short_name": "Nizam",
+  "color": "#3b6fa0",
+  "recruitable": [
+   "infantry",
+   "cavalry",
+   "artillery"
+  ],
+  "historical": {
+   "text": "The Deccan state founded by Nizam-ul-Mulk Asaf Jah I, who became effectively autonomous in the 1720s while nominally under the Mughal emperor.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Eaton, Richard M. A Social History of the Deccan, 1300-1761 (Cambridge, 2005)"
+   ]
+  },
+  "gameplay_note": "Computer-controlled. Starts with good artillery."
+ },
+ "mughal": {
+  "name": "Mughal Empire",
+  "short_name": "Mughals",
+  "color": "#8a4a8a",
+  "recruitable": [
+   "infantry",
+   "cavalry",
+   "artillery"
+  ],
+  "historical": {
+   "text": "The Mughal Empire under Muhammad Shah (reigned 1719-1748), still large and wealthy but with weakening control over distant provinces in the 1730s.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  },
+  "gameplay_note": "Computer-controlled, defensive and rich, but its provinces are far from its capital."
+ },
+ "maratha_confederacy": {
+  "name": "Maratha Leaders (Peshwa and allies)",
+  "short_name": "Marathas",
+  "color": "#e0902a",
+  "recruitable": [
+   "infantry",
+   "cavalry",
+   "artillery",
+   "drilled_infantry"
+  ],
+  "historical": {
+   "text": "In 1817-18 the Peshwa Baji Rao II, the Bhonsle of Nagpur and Holkar each fought the East India Company, largely separately. The game merges them into one faction, a gameplay simplification.",
+   "confidence": "MEDIUM",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  },
+  "gameplay_note": "One faction stands in for several historically separate rulers."
+ },
+ "eic": {
+  "name": "East India Company",
+  "short_name": "Company",
+  "color": "#a63a3a",
+  "recruitable": [
+   "infantry",
+   "cavalry",
+   "artillery",
+   "drilled_infantry"
+  ],
+  "historical": {
+   "text": "The East India Company's Bombay, Madras and Bengal armies, made up largely of Indian sepoys under British officers, were the main opponent of the Marathas in the Anglo-Maratha Wars (1775-1818).",
+   "confidence": "HIGH",
+   "sources": [
+    "Gordon, Stewart. The Marathas 1600-1818 (Cambridge, 1993)"
+   ]
+  },
+  "gameplay_note": "Computer-controlled. Rich and well supplied, with strong drilled infantry."
+ }
+}
